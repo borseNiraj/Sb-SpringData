@@ -23,7 +23,7 @@ public class SbDataJpaCrudRepositoryAppApplication {
               student.setStudentName("niraj");
               student.setStudentAge(28);
              
-              
+              system.out.println("changes in main method of jpacrudrepo");
               Student save = studentRepository.save(student);
    
               System.out.println(save);
